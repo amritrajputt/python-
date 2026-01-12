@@ -42,3 +42,14 @@ print(tea)
 
 tea.remove('tulsileaf')
 print(tea)
+
+tea.insert(1,"gingertea")
+print(tea)
+
+tea_type = tea.copy() #copy tea data but memory reference are different tea_type create new list of same value
+print(tea_type)
+
+# LIST COMPREHENSION
+ 
+squared_num = [x**2 for x in range(10)]
+print(squared_num) # list of squared num from range 0-9
